@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 set -e
-
+# strains
 main () {
   local -r THIS_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
   ROOT_DIR=$(cd "$THIS_DIR" && hg root)
